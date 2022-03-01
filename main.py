@@ -3,7 +3,7 @@ import sqlite3
 
 conn = sqlite3.connect("SQLite.db")
 cur = conn.cursor()
-csvfiles = ["feed_station_mapping (1).csv", "consumptions (1).csv"]
+csvfiles = ["data/feed_station_mapping (1).csv", "data/consumptions (1).csv"]
 table_name = ["feed_station_mapping", "consumptions"]
 
 for csv, table in zip(csvfiles, table_name):
