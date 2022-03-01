@@ -1,5 +1,5 @@
 ### Description
-   - A quick analysis on music consumption data and feed-station mapping
+   - A quick analysis on music consumption data and feed-station mapping.
 
 ### Virtual environment
   - Create virtual env
@@ -24,3 +24,10 @@ virtualenv -p python3 venv
     ```bash
        jupyter notebook analysis.ipynb
      ```
+   
+### TODO improvement:
+
+As to optimize for minimum dependencies, SQLite is the database of choice. The lack of support for timezone in SQLite is thus dealt 
+with by adding/subtracting hours.
+
+Handling of timezone is more elegantly dealt with in Postgres for example.
