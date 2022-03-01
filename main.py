@@ -1,5 +1,4 @@
 import pandas as pd
-import pandasql as ps
 import sqlite3
 
 conn = sqlite3.connect("SQLite.db")
