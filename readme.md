@@ -14,7 +14,7 @@ virtualenv -p python3 venv
     ```
 1. Install requirements:
     ```bash
-       pip install -r requirements.txt
+       pip install -r requirements/requirements.txt
      ``` 
 1. Load data into SQLite.db:
     ```bash
